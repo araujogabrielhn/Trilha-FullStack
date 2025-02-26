@@ -1,0 +1,182 @@
+:root {
+    margin: 0;
+    --cor--1: rgb(0, 217, 255);
+    --cor--2: rgb(195, 210, 212);
+    --cor--3: rgb(12, 35, 105);
+}
+
+* {
+    color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: space-between
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px); /* Efeito de desfoque */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: -12rem;
+    margin-bottom: ;
+    padding: 4rem 4rem .25rem 3rem;
+    border-radius: 1rem;
+}
+
+header, h1 {
+    font-size: 1.5rem;
+}
+
+.img1 {
+    border-radius: 2rem;
+    margin: 2rem;
+    margin-top: 3rem;
+    height: 22rem;
+    width: 35rem;
+}
+
+.img2 {
+    border-radius: 2rem;
+    height: 30rem;
+    margin-left: 13rem;
+    margin-top: 6rem;
+    width: 40rem;
+}
+
+.img3 {
+    margin-top: 6rem;
+    margin-right: 7rem;
+    border-radius: 2rem;
+    height: 25rem;
+    width: 40rem;
+    
+
+
+}
+
+ul nav li {
+    font-size: 1rem;
+    color: var(--cor--3);
+    background-color: var(--cor--1);
+    display: inline-block;
+    border-radius: 9999px;
+    background-color: var(--cor--2);
+    margin: 1rem;
+    padding: 1rem;
+     align-items: center;
+     
+ 
+}
+
+nav li:hover {
+    background-color: var(--cor--1);
+}
+
+body {
+    background-image: url(https://i.pinimg.com/736x/50/fb/d4/50fbd4ac52f6d40912ac4792dff7fea9.jpg);
+    height: 100vh; /* Faz o body ter a altura da viewport */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-attachment: fixed; /* Opcional: Fixa a imagem ao rolar a página */
+}
+
+.parte1 {
+    border: solid .3rem;
+    border-color: #797979;
+    border-radius: 1rem;
+    margin-top: 8.5rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    padding: 2rem;
+    
+    
+}
+   
+
+div {
+    
+    line-height: 2rem;
+    padding-bottom: 2rem;
+    margin: 2rem;
+}
+
+.centro {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.parte2 {
+    line-height: 2rem;
+    
+    display: flex;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+
+
+.parte3 {
+    border: solid 0.3rem;
+    border-color: #797979;
+    border-radius: 1rem;
+    display: flex;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.parte3, h2 {
+    margin-top: 2rem;
+}
+
+.parte3emeio {
+    display: flex;
+    line-height: 2rem;
+    padding: 2rem;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+
+
+.parte4 {
+    line-height: 2rem;
+    padding: 0rem 2rem 2rem 6rem;
+    margin-top: -20rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    color: #0c5c0e;
+    cursor: pointer;
+    text-align: 100em;
+    height: 2em;
+    width: 7em;
+}
+
+footer {
+    border-radius: 2rem;
+    text-align: flex;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: rgba(255, 255, 255, 0); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px); /* Efeito de desfoque */
+    text-decoration: none;
+   
+}
+
+.inicio {
+    text-align: right;
+}
+
+
+
