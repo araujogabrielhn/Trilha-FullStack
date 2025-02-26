@@ -1,0 +1,30 @@
+header {
+    text-align: center;
+    text-decoration: underline; /* Ou none(tirar linha do link*/
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 16px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'montserrat', sans-serif;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+    
+}
+

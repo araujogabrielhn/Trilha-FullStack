@@ -1,0 +1,62 @@
+* {
+  margin: 0;   
+  padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+}
+
+nav a {
+    color: #24ae60;
+}
+
+nav > a {
+    display: block;
+    color: #e5a323;
+    pad: 10px;
+}
+
+.laranja {
+    color: #e5a323;
+}
+
+.verde {
+    color: #24ae60;
+}
+
+
+#secao-principal {
+    padding: 20px;
+    text-align: center;
+}
+
+#secao-principal > * {
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+
+input + input {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 + p {
+    padding: 30px;
+}
+
+input[name="email"] {
+    background-color: #f5a623;
+}
+
+input[type="password"] {
+    background-color: #24ae60;
+}
+

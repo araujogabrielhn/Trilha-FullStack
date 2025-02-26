@@ -1,0 +1,58 @@
+<html>  
+    <head>
+        <title>Exercício 5</title>
+    </head>
+
+    <body>
+        <h1>Formulário de Inscrição</h1>
+    
+        <form action="#" method="post">
+            <div>
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome" required>
+            </div>
+            <br><br>
+
+            <div>
+            <label for="email">E-mail</label><br>
+            <input type="email" name="email" id="email">
+            <div>
+            <br><br>
+            
+            <div>
+            <label for="whatsapp">Whatsapp</label><br>
+            <input type="text" name="whatsapp" id="whatsapp">
+            </div>
+            <br><br>
+
+            <div>
+            <label>Área de atuação</label><br>
+            
+            <input type="radio" name="area" id="dev" value="dev" required>
+            <label for="dev">Desenvolvimento</label>
+            
+            <input type="radio" name="area" id="qa" value="qa" required>
+            <label for="qa">Quality Assurance</label>
+            
+            <input type="radio" name="area" id="dados" value="dados" required> 
+            <label for="dados">Análise de dados</label>
+            
+            <input type="radio" name="area" id="infra" value="infra" required>
+            <label for="infra">Infraestrutura</label>
+            </div>
+            <br><br>
+
+            <div>
+            <label for="observa">Observações</label>
+            <textarea name="observa" id="observa" cols="40"></textarea>
+            </div>
+            <br><br>
+
+            <input type="checkbox" id="desejo">
+            <label for="desejo">Desejo receber novidades por email</label>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+
+</html>
