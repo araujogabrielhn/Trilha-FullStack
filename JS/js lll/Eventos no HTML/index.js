@@ -1,19 +1,19 @@
 function mouseEnterEvent() {
-    console.log('mouse entered')
+    console.log('entrada no mouse')
   }
   
   function changeEvent() {
-    console.log('value changed')
+    console.log('mudança no valor')
   }
   
   function focusEvent() {
-    console.log('gained focus')
+    console.log('foco no elemento')
   }
   
   function blurEvent() {
-    console.log('lost focus')
+    console.log('desfocado o elemento')
   }
   
   function clickEvent() {
-    alert('clicked')
+    alert('clicou no botao')
   }
