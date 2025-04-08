@@ -1,2 +1,4 @@
-# Trilha-FullStack
+# Jornada-FullStack
+
+-html-css-js
 
