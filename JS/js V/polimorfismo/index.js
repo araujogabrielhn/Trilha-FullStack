@@ -26,9 +26,9 @@ const delorean = new Car()
 const blackPearl = new Ship()
 const epoch = new Aircraft ()
 
-delorean.move()
+/* delorean.move()
 blackPearl.move()
-epoch.move(80)
+epoch.move(80) */
 
 
 function start (vehicle) {
