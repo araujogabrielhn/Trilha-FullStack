@@ -20,7 +20,7 @@ module.exports = class Database {
     }
 
     saveBook(book) {
-        const bookExists = this.findBookByname(book.name)
+        const bookExists = this.findBookByName(book.name)
         if (!bookExists) {
             this.#storage.books.push(book)
         }
@@ -32,7 +32,7 @@ module.exports = class Database {
     }
 
     removeBooksFromStock(bookName, quantity) {
-        const book = this.findBookByname(bookName)
+        const book = this.findBookByName(bookName)
         book?.removebooksFromStock
     }
 

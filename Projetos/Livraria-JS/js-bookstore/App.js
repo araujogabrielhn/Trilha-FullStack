@@ -15,7 +15,7 @@ module.exports = class App {
     }
 
     getUsers() {
-        App.#database.find('users')
+        return App.#database.find('users')
     }
 
     createAuthor(name, nationality, bio) {
