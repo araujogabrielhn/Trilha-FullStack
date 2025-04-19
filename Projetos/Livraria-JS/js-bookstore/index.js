@@ -17,7 +17,7 @@ const books = app.getBooks()
 app.createUser('Gab', 'araujogabrielhn@email.com', '123456')
 
 const users = app.getUsers()
-console.log(users)
+
 
 app.showDatabase()
 
