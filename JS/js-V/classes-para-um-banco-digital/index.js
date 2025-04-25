@@ -1,19 +1,20 @@
 const App = require("./App")
 
-App.createUser("araujogab@gmail.com", "Gabriel Araujo")
-App.createUser("germancano@gmail.com", "German Cano")
-App.createUser("pauloganso@gmail.com", "Paulo Ganso")
+App.createUser("isaac@email.com", "Isaac Pontes")
+App.createUser("lucas@email.com", "Lucas Queiroga")
+App.createUser("juliana@email.com", "Juliana Conde")
 
-App.deposit("araujogab@gmail.com", 100)
+App.deposit("isaac@email.com", 100)
 
-App.transfer("araujogab@gmail.com", "germancano@gmail.com", 20)
+App.transfer("isaac@email.com", "lucas@email.com", 20)
 
 App.changeLoanFee(10)
-App.takeLoan("pauloganso@gmail.com", 2000, 24)
+App.takeLoan("juliana@email.com", 2000, 24)
 
-console.table(App.findUser("araujogab@gmail.com"))
-console.table(App.findUser("araujogab@gmail.com").account)
-console.table(App.findUser("germancano@gmail.com"))
-console.table(App.findUser("germancano@gmail.com").account)
-console.table(App.findUser("pauloganso@gmail.com"))
-console.table(App.findUser("pauloganso@gmail.com").account)
+console.log(App.findUser("isaac@email.com"))
+console.log(App.findUser("isaac@email.com").account)
+console.log(App.findUser("lucas@email.com"))
+console.log(App.findUser("lucas@email.com").account)
+console.log(App.findUser("juliana@email.com"))
+console.log(App.findUser("juliana@email.com").account)
+console.log(App.findUser("juliana@email.com").account.loans[0].installments)
