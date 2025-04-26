@@ -1,4 +1,4 @@
-function Game (title, rank, genre)  {
+ function Game (title, rank, genre)  {
     this.title = title
     this.rank = rank
     this.genre = genre
@@ -19,4 +19,21 @@ const eldenRing = new Game ("Anel do Éder", 2, "SoulsLike/Medieval(famosa DLC d
 const blasphemous = new Game ("Blasfemia", 4, "MetroidVania numa pegada SoulsLike")
 
 console.log(sekiro, monsterHunter, darkSouls3, eldenRing, blasphemous)
+ 
 
+const caboDeEmbreagem = 391
+const caboDeAcelerador = 346
+const guidao = 299
+1036 
+
+const sissyBar = 590
+const escapamento = 400
+
+const valorGuidao = caboDeAcelerador+caboDeEmbreagem+guidao
+const valorGeral = caboDeAcelerador+caboDeEmbreagem+guidao+sissyBar+escapamento
+
+console.log(valorGuidao)
+console.log(valorGeral)
+
+
+ 
