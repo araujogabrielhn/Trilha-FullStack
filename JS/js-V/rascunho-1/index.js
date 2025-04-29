@@ -1,4 +1,4 @@
- function Game (title, rank, genre)  {
+/*  function Game (title, rank, genre)  {
     this.title = title
     this.rank = rank
     this.genre = genre
@@ -33,7 +33,8 @@ const valorGuidao = caboDeAcelerador+caboDeEmbreagem+guidao
 const valorGeral = caboDeAcelerador+caboDeEmbreagem+guidao+sissyBar+escapamento
 
 console.log(valorGuidao)
-console.log(valorGeral)
+console.log(valorGeral) */
 
-
- 
+const saldo = 6000 + 1755 + 650 - 1350 - 500 - 350 - 50 - 40 - 25 
+const nerd = 1800 / 4
+console.log(saldo, nerd)
