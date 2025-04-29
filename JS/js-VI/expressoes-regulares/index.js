@@ -12,5 +12,12 @@ Caracteres " a+, ^, $, . (ponto = coringa), \w (todas as letras e números), \W 
 
             */
 
-const expressoesRegulares = 'Localização de caractéres para qualquer finalidade (modificação por ex) com vários tipos de filtros'
+function PhoneNumber(PhoneNumberString) {
+    const fixedString = PhoneNumberString.replace(/[\sa-zA-Z]]/g, "")
+    this.countryCode = fixedString.match(/(?<=\+)\d{1,3}/)[0]
+    this.ddd = fixedString.match(/(?<=\()\d+(?=\))/)[0]
+    this.number = fixedString.match(/(?<=\)).+/)[0].replace(/-/g, "")
+}
 
+console.log(new PhoneNumber('+55 (61) 9 9154-2581'))
+console.log(new PhoneNumber('+1 (55) as555-999-8888'))
